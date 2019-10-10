@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_1443908_bs7rn0r77jv.css" />
+		<link rel="stylesheet" type="text/css" href="../css/cart.css" />
+		<script src="../js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<!-- <script src="../js/shouye.js" type="text/javascript" charset="utf-8"></script> -->
+		<script src="../js/cart.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<div class="head">
+				<div class="head_l">
+					<a href="../shouye.html" class="back">
+						<i class="iconfont icon-fangzi"></i>
+						<span class="back1">返回首页</span>
+					</a>
+					<div class="nav">
+						<a href="" class="nav1">
+							<span>网站导航</span>
+							<em class="iconfont icon-dayuhao"></em>
+						</a>
+						<div class="navchild">
+							<dl class="navchildlist">
+								<dt>特色购物</dt>
+								<dd>
+									<p><a href="">苏宁达人</a></p>
+									<p><a href="">苏宁互联</a></p>
+									<p><a href="">苏宁卡</a></p>
+									<p><a href="">苏宁国际</a></p>
+									<p><a href="">易回收</a></p>
+									<p><a href="">二手优品</a></p>
+									<p><a href="">领卷中心</a></p>
+									<p><a href="">香港苏宁</a></p>
+									<p><a href="">苏宁Outlets</a></p>
+									<p><a href="">节能超市</a></p>
+									<p><a href="">导购指南</a></p>
+								</dd>
+							</dl>
+							<dl class="navchildlist">
+								<dt>主题频道</dt>
+								<dd>
+									<p><a href="">电器城</a></p>
+									<p><a href="">苏宁超市</a></p>
+									<p><a href="">手机</a></p>
+									<p><a href="">运动馆</a></p>
+									<p><a href="">图书</a></p>
+									<p><a href="">红孩子母婴</a></p>
+									<p><a href="">美妆个护</a></p>
+									<p><a href="">电脑</a></p>
+									<p><a href="">服装城</a></p>
+									<p><a href="">智能生活</a></p>
+									<p><a href="">假装管</a></p>
+									<p><a href="">苏宁汽车</a></p>
+									<p><a href="">排行榜</a></p>
+									<p><a href="">医药馆</a></p>
+								</dd>
+							</dl>
+							<dl class="navchildlist">
+								<dt>生活助手</dt>
+								<dd>
+									<p><a href="">零钱宝<i class="hot"></i></a></p>
+									<p><a href="">手机充值</a></p>
+									<p><a href="">转账还款</a></p>
+									<p><a href="">约服务</a></p>
+									<p><a href="">水电煤</a></p>
+									<p><a href="">保险</a></p>
+									<p><a href="">机票</a></p>
+									<p><a href="">门店查询</a></p>
+									<p><a href="">酒店</a></p>
+								</dd>
+							</dl>
+							<dl class="navchildlist">
+								<dt>会员服务</dt>
+								<dd>
+									<p><a href="">会员联盟<i class="hot"></i></a></p>
+									<p><a href="">延长保修</a></p>
+									<p><a href="">易付宝</a></p>
+									<p><a href="">苏宁理财</a></p>
+									<p><a href="">苏宁金融</a></p>
+								</dd>
+							</dl>
+							<dl class="navchildlist">
+								<dt>更多热点</dt>
+								<dd>
+									<p><a href="">pp视频</a></p>
+									<p><a href="">合作招商<i class="hot"></i></a></p>
+									<p><a href="">苏宁联盟</a></p>
+									<p><a href="">用户体验</a></p>
+									<p><a href="">苏宁云</a></p>
+									<p><a href="">苏宁足球</a></p>
+									<p><a href="">苏宁公益<i class="hot"></i></a></p>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="settled">
+						<a href="" class="settled1">
+							<span>商家入驻</span>
+							<em class="iconfont icon-dayuhao"></em>
+						</a>
+						<div class="settledchild">
+							<a href="">合作招商</a>
+							<a href="">服务市场</a>
+							<a href="">金融中心</a>
+							<a href="">培训中心</a>
+							<a href="">易通天下</a>
+							<a href="">规则中心</a>
+							<a href="">规则众议院</a>
+						</div>
+					</div>
+					<div class="service">
+						<a href="" class="service1">
+							<span>客户服务</span>
+							<em class="iconfont icon-dayuhao"></em>
+						</a>
+						<div class="servicechild">
+							<a href="">苏宁帮客</a>
+							<a href="">帮助中心</a>
+							<a href="">查找门店</a>
+							<a href="">退换/维修</a>
+							<a href="">意见反馈</a>
+							<a href="">30天包换</a>
+							<a href="">
+								<span>在线服务</span>
+								<em class="iconfont icon-xiaolian"></em>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="head_r">
+					<div class="dz">
+						<a href="" class="login">请登录</a>
+						<a href="" class="zhuce">注册有礼</a>
+					</div>
+					<div class="order">
+						<a href="" class="order1">
+							<span>我的订单</span>
+							<em class="iconfont icon-dayuhao"></em>
+						</a>
+						<div class="orderlist">
+							<a href="">待支付</a>
+							<a href="">待收货</a>
+							<a href="">待评价</a>
+							<a href="">修正订单</a>
+						</div>
+					</div>
+					<div class="yigou">
+						<a href="" class="yigou1">
+							<span>我的易购</span>
+							<em class="iconfont icon-dayuhao"></em>
+						</a>
+						<div class="yigoulist">
+							<div class="clearfix">
+								<a href="" class="heading">
+									<img src="https://image2.suning.cn/uimg/cmf/cust_headpic/0000000000_01_60x60.jpg" alt="">
+								</a>
+								<div class="mysuning">
+									<a href="" class="login1">请登录</a>
+									<!-- <a href="" class="username"></a> -->
+								</div>
+							</div>
+							<a class="ershou" href="">我的二手</a>
+							<a class="ershou" href="">我的关注</a>
+							<a class="ershou" href="">我的金融</a>
+							<a class="ershou" href="">苏宁会员</a>
+							<a class="ershou" href="">我的任性付</a>
+							<a class="ershou" href="">我的优惠卷</a>
+						</div>
+
+					</div>
+					<a href="" class="snhy"><span>苏宁会员</span></a>
+					<div class="cart">
+						<a href="" class="minicart">
+							<em class="iconfont icon-shoppingcart-over"></em>
+							<span class="gw">购物车</span>
+							<span class="numbox">
+								<b class="totalbox">
+									0
+								</b>
+							</span>
+							<em class="iconfont icon-dayuhao"></em>
+						</a>
+					</div>
+					<a href="" class="yfb"><span>易付宝</span></a>
+					<a href="" class="qycg"><span>企业采购</span></a>
+					<div class="phonesn">
+						<span>手机苏宁</span>
+						<em class="iconfont icon-dayuhao"></em>
+						<div class="phonelist">
+							<ul class="appcode">
+								<li>
+									<img src="https://res.suning.cn/public/v3/images/sntk-top-code.png?var=01" alt="">
+									<p>关注苏宁推客公众号</p>
+									<p>自购省钱.分享赚钱</p>
+								</li>
+								<li>
+									<img src="https://res.suning.cn/public/v3/images/yfb-top-code.png?var=01" alt="">
+									<p>扫一扫</p>
+									<p>下载苏宁金融APP</p>
+								</li>
+								<li>
+									<img src="https://res.suning.cn/public/v3/images/app-code.jpg?var=01">
+									<p>扫一扫</p>
+									<p>关注苏宁易购服务号</p>
+								</li>
+							</ul>
+							<div class="line"></div>
+							<div class="linetwo"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--搜索框-->
+		<div class="searcher">
+			<div class="search">
+				<div class="wrapper">
+					<div class="wrapper_l">
+						<a href="" class="logo">
+							<img src="https://res.suning.cn/public/images/logo/snlogo.png?v=2019092117" alt="">
+						</a>
+					</div>
+					<div class="wrapper_z">
+						<i class="iconfont icon-fangdajing"></i>
+						<form action="">
+							<div class="input">
+								<input class="input1" type="text" name="" id="" value="" placeholder="国庆换型2件五折起" />
+							</div>
+							<input class="input2" type="submit" name="" id="" value="搜索" />
+						</form>
+						<div id="ac_results">
+							<i></i>
+						</div>
+					</div>
+					<div class="wrapper_r">
+						<img src="img/152110718068231844.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--购物车框-->
+		<div class="cartlister">
+			<div class="cartlist">
+				<div class="quanxuan">
+					<div class="thchk">
+						<input class="dianquanxuan1" type="checkbox" name="" id="" value="" />
+						<label>全选</label>
+					</div>
+					<div class="xinxi">商品信息</div>
+					<div class="guige">规格</div>
+					<div class="danjia">单价(元)</div>
+					<div class="shuliang">数量</div>
+					<div class="xiaoji">小计(元)</div>
+					<div class="caozuo">操作</div>
+				</div>
+				<div class="danxuan">
+					<div class="storetitle">
+						<!-- <input class="dianquanxuan2" type="checkbox" name="" id="" value="" /> -->
+						<i><img src="https://res.suning.cn/project/ccf/css/images/lion-cart.png?v=c0878859d58b6406db003165ff81d198"></i>
+						<span>苏宁自营</span>
+					</div>
+					<div class="shangpinlist">
+						<div class="splist1">
+							<div class="splist1_l">
+								<span>满减</span>
+								<a href="">满2件打9折</a>
+								<a href="">去凑单</a>
+							</div>
+							<div class="splist1_r">
+								￥0.00
+							</div>
+						</div>
+						<div class="suitline"></div>
+						<div class="splist2">
+							<input class="dianquanxuan3" type="checkbox" name="" id="" value="" />
+						    <div class="tditem">
+								<div>
+									<a href=""><img src="https://imgservice.suning.cn/uimg1/b2c/image/mDVfgooTxq85zRgoUudbow.jpg_100w_100h_4e" alt=""></a>
+									<a href=""  style="display: none;"><img src="https://imgservice.suning.cn/uimg1/b2c/image/mDVfgooTxq85zRgoUudbow.jpg_260w_260h_4e" alt=""></a>
+								</div>
+								<div><a href="">三元 有机奶 250ml*12</a></div>
+							</div>
+							<div class="tdspecs">高端系列：三元有机奶</div>
+							<div class="tdprice">
+								<p>￥60.90</p>
+								<p>大会据</p>
+							</div>
+							<div class="tdamount">
+								<div class="itemamount">
+									<a href="" class="btn_l">-</a>
+									<input type="text" class="text-amount">
+									<a href="" class="btn_r">+</a>
+								</div>
+								<div class="zizi">最多可买20件</div>
+							</div>
+							<div class="tdsum">￥60.90</div>
+							<div class="tdop">
+								<a href="" class="remove">移除关注</a>
+								<a href="" class="delete">删除</a>
+							</div>
+						</div>
+					</div>
+					<div class="splist3">
+						<div class="left_l">
+							<div class="jiesusan">
+								<input type="checkbox" class="dianquanxuan4"><label for="">全选</label>
+							</div>
+							<div class="scxz">删除选中的商品</div>
+						</div>
+						<div class="right_r">
+							<div class="yixuan">已选商品<span class="dsj">0</span>件</div>
+							<div class="yxmj">总价: <p>￥<span class="mathprice">0.00</span></p></div>
+							<div class="qjs" style="background: red;">去结算</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="footer">
+			<div class="ngsfooter">
+							<div class="ngsfoot">
+								<p class="yihang">
+									<a href="">苏宁互联</a><span>|</span>
+									<a href="">苏宁金融</a><span>|</span>
+									<a href="">苏宁支付</a><span>|</span>
+									<a href="">pp视频</a><span>|</span>
+									<a href="">红孩子</a><span>|</span>
+									<a href="">苏宁物流</a><span>|</span>
+									<a href="">手机苏宁</a><span>|</span>
+									<a href="">零售云</a><span>|</span>
+									<a href="">苏宁云</a><span>|</span>
+									<a href="">知识产权举报</a><span>|</span>
+									<a href="">投资者关系</a><span>|</span>
+									<a href="">苏宁智能</a>
+								</p>
+								<p class="erhang">
+									<a href="">联系我们</a><span>|</span>
+									<a href="">诚聘英才</a><span>|</span>
+									<a href="">合作招商</a><span>|</span>
+									<a href="">广告平台</a><span>|</span>
+									<a href="">苏宁联盟</a><span>|</span>
+									<a href="">苏宁招标</a><span>|</span>
+									<a href="">友情链接</a><span>|</span>
+									<a href="">隐私政策</a><span>|</span>
+									<a href="">苏宁云</a><span>|</span>
+									<a href="">用户体验提升升级</a><span>|</span>
+									<a href="">股东会员认证</a>
+								</p>
+								<p class="sanhang">	
+			Copyright© 2002-2019，苏宁易购集团股份有限公司版权所有
+			                     <span>|</span>
+								 <a href="" class="gwab"><i></i>苏公网安备 32010202010078号</a>
+								 <span>|</span>
+								 <a href="">苏ICP备10207551号-4</a>
+								</p>
+								<p class="sihang">
+									<a href="">合字B2-20180025</a>
+									<span>|</span>
+									<a href="">合字A1.B1.B2-20180017</a>
+									<span>|</span>
+									<a href="">出版物经营许可证新出发苏批字第A-243号</a>
+								    <span>|</span>
+									
+			互联网药品信息服务资格证书
+			                        <a href="">（苏）-非经营性-2016-0005</a>
+								</p>
+								<p class="wuhang">
+									<a href="">经营证照</a>
+									<span>|</span>
+									<a href="">医疗器械网络交易服务第三方平台备案凭证-（苏）网械平台备字（2018）第00052号</a>
+									<span>|</span>
+									<a href="">网络文化经营许可证：苏网文〔2018〕10580-203号</a>
+								</p>
+								<p class="liuhang">本网站直接或间接向消费者推销商品或者服务的商业宣传均属于“广告”（包装及参数、售后保障等商品信息除外）</p>
+								<div class="qihang">
+									<a href=""><img src="https://res.suning.cn/public/v3/images/wxrz.png" alt=""></a>
+									<a href=""><img src="https://res.suning.cn/public/v3/images/chengxin.png" alt=""></a>
+									<a href=""><img src="https://res.suning.cn/public/v3/images/unicom.png" alt=""></a>
+									<a href=""><img src="https://res.suning.cn/public/v3/images/dianxin.jpg" alt=""></a>
+									<a href=""><img src="https://res.suning.cn/public/v3/images/dianzi.png?v=02" alt=""></a>
+								</div>
+							</div>
+						</div>
+		</div>
+		<script type="text/javascript">
+// 			$(function(){
+// 				let token = $.cookie("token");
+// 				console.log(token);
+// 				let name=$.cookie("name");
+// 				console.log(name);
+// 				if(token!==undefined){
+// 					$(".login").text(name);
+// 					$(".login1").text(name);
+// 				}
+// 				var str="";
+// 				let perId = $.cookie("perId");
+// 				var cartlist=$.get("http://47.104.244.134:8080/cartlist.do",{"token":token},function(data){
+// 					console.log(data)
+// 					for(let i=0;i<data.length;i++){
+// 						str+=`
+// 						<input class="dianquanxuan3" type="checkbox" name="" id="" value="" />
+// 						<div class="tditem">
+// 							<div>
+// 								<a href=""><img src="http:${data[i].goods.picurl}" alt=""></a>
+// 								<a href=""  style="display: none;"><img src="http:${data[i].goods.picurl}" alt=""></a>
+// 							</div>
+// 							<div><a href="">${data[i].goods.name}</a></div>
+// 						</div>
+// 						<div class="tdspecs">${data[i].goods.name}</div>
+// 						<div class="tdprice">
+// 							<p>￥<span class="aprice">${data[i].goods.price}</span></p>
+// 							<p>大会据</p>
+// 						</div>
+// 						<div class="tdamount">
+// 							<div class="itemamount">
+// 								<a href="javascript:void(0);" class="btn_l">-</a>
+// 								<input type="text" class="text-amount" value="${data[i].count}">
+// 								<a href="javascript:void(0);" class="btn_r">+</a>
+// 							</div>
+// 							<div class="zizi">最多可买20件</div>
+// 						</div>
+// 						<div class="tdsum">￥<span class="zongjia">60.90</span></div>
+// 						<div class="tdop">
+// 							<a href="javascript:void(0);" class="remove">移除关注</a>
+// 							<a href="javascript:void(0);" class="delete">删除</a>
+// 						</div>
+// 						`;
+// 					}
+// 					
+// 					$(".splist2").html(str)
+// 					
+// 					for(let j=0;j<data.length;j++){
+// 						let aprice=$(".aprice").eq(j).text();
+// 						console.log(aprice)
+// 						let atextamount=$(".text-amount").eq(j).val();
+// 						$(".zongjia").eq(j).text(aprice*atextamount);
+// 						//点击减数量
+// 						$(".btn_l").eq(j).click(function(){
+// 							 if( $(".text-amount").eq(j).val()<=1){
+// 							 	$(".text-amount").eq(j).val("1");
+// 							 	return;
+// 							 }
+// 							var num1=$(".text-amount").eq(j).val();
+// 							num1--;
+// 							$(".text-amount").eq(j).val(num1)
+// 	
+// 							 $.get("http://47.104.244.134:8080/cartupdate.do",{"id":data[j].id,"gid":data[j].gid,"num":"-1","token":token},
+// 							function(data){
+// 								console.log(data)
+// 							}) 
+// 							// window.location.reload()
+// 							let aprice=$(".aprice").eq(j).text();
+// 							console.log(aprice)
+// 							let atextamount=$(".text-amount").eq(j).val();
+// 							$(".zongjia").eq(j).text(aprice*atextamount)
+// 							
+// 							let haoduoqian=0
+// 							let danzongjia=0
+// 							 for(let k=0;k<$(".dianquanxuan3").length;k++){
+// 							 	if($(".dianquanxuan3").eq(k).prop("checked")){
+// 							 		haoduoqian+=Number($(".text-amount").eq(k).val());
+// 									danzongjia+=Number($(".zongjia").eq(k).text());
+// 							 	}
+// 								$(".dsj").text(haoduoqian)
+// 								$(".mathprice").text(danzongjia)
+// 							 }
+// 						})
+// 						//点击加数量
+// 						$(".btn_r").eq(j).click(function(){
+// 							 var num2=$(".text-amount").eq(j).val();
+// 							 num2++;
+// 							 $(".text-amount").eq(j).val(num2)
+// 							  $.get("http://47.104.244.134:8080/cartupdate.do",{"id":data[j].id,"gid":data[j].gid,"num":"1","token":token},
+// 							 function(data){
+// 							 	console.log(data)
+// 							 }) 
+// 							 let aprice=$(".aprice").eq(j).text();
+// 							 console.log(aprice)
+// 							 let atextamount=$(".text-amount").eq(j).val();
+// 							 $(".zongjia").eq(j).text(aprice*atextamount)
+// 							 
+// 							 let haoduoqian=0
+// 							 let danzongjia=0
+// 							  for(let k=0;k<$(".dianquanxuan3").length;k++){
+// 							  	if($(".dianquanxuan3").eq(k).prop("checked")){
+// 							  		haoduoqian+=Number($(".text-amount").eq(k).val());
+// 							 		danzongjia+=Number($(".zongjia").eq(k).text());
+// 							  	}
+// 							 	$(".dsj").text(haoduoqian)
+// 							 	$(".mathprice").text(danzongjia)
+// 							  }
+// 						})	
+// 						//修改数量
+// 						let textamount=$(".text-amount").eq(j).val();
+// 						$(".text-amount").eq(j).change(function(){
+// 							let textamount1=$(".text-amount").eq(j).val();
+// 							$.get("http://47.104.244.134:8080/cartupdate.do",{"id":data[j].id,"gid":data[j].gid,"num":textamount1-textamount,"token":token},
+// 							function(data){
+// 								console.log(data)
+// 							}) 
+// 							let aprice=$(".aprice").eq(j).text();
+// 							console.log(aprice)
+// 							let atextamount=$(".text-amount").eq(j).val();
+// 							$(".zongjia").eq(j).text(aprice*atextamount);
+// 							
+// 							
+// 							let haoduoqian=0
+// 							let danzongjia=0
+// 							 for(let k=0;k<$(".dianquanxuan3").length;k++){
+// 							 	if($(".dianquanxuan3").eq(k).prop("checked")){
+// 							 		haoduoqian+=Number($(".text-amount").eq(k).val());
+// 									danzongjia+=Number($(".zongjia").eq(k).text());
+// 							 	}
+// 								$(".dsj").text(haoduoqian)
+// 								$(".mathprice").text(danzongjia)
+// 							 }
+// 						})
+// 						//点击删除
+// 						$(".delete").eq(j).click(function(){
+// 							$.get("http://47.104.244.134:8080/cartupdate.do",{"id":data[j].id,"gid":data[j].gid,"num":"0","token":token},
+// 							function(data){
+// 							  window.location.reload()
+// 							}) 
+// 						})
+// 						
+// 					}
+// 					//多选,单选
+// 				            	$(".dianquanxuan1").click(function(){
+// 				            	$(".dianquanxuan3").prop("checked",$(this).prop("checked"));
+// 				            });
+// 				            $(".dianquanxuan3").click(function(){
+// 				            	if($(".dianquanxuan3:checked").length == $(".dianquanxuan3").length){
+// 				            		$(".dianquanxuan1").prop("checked",true);
+// 									$(".dianquanxuan4").prop("checked",true);
+// 				            	}else{
+// 				            		$(".dianquanxuan1").prop("checked",false);
+// 									$(".dianquanxuan4").prop("checked",false);
+// 				            	}
+// 				            });
+// 							
+// 							
+// 							//点击全选
+// 							$(".dianquanxuan4").click(function(){
+// 								var mathprice=0;
+// 								var mathgeshu=0;
+// 								$(".dsj").text("0")
+// 								$(".mathprice").text("0")
+// 								$(".dianquanxuan3").prop("checked",$(this).prop("checked"));
+// 							   for(let i=0;i<$(".dianquanxuan3").length;i++){
+// 								   mathprice+=Number($(".zongjia").eq(i).text());
+// 							   }
+// 							   $(".mathprice").text(mathprice)
+// 							   if(!$(".dianquanxuan4").prop("checked")){
+// 								   $(".mathprice").text(0)
+// 							   }
+// 							   for(let h=0;h<$(".dianquanxuan3").length;h++){
+// 								   mathgeshu+=Number($(".text-amount").eq(h).val());
+// 							   }
+// 							      $(".dsj").text(mathgeshu)
+// 							   if(!$(".dianquanxuan4").prop("checked")){
+// 							      $(".dsj").text("0")
+// 							   }
+// 							});
+// 							//单击计算总价
+// 							$(".dianquanxuan3").click(function(){
+// 								let haoduoqian=0
+// 								let danzongjia=0
+// 								 for(let k=0;k<$(".dianquanxuan3").length;k++){
+// 								 	if($(".dianquanxuan3").eq(k).prop("checked")){
+// 								 		haoduoqian+=Number($(".text-amount").eq(k).val());
+// 										danzongjia+=Number($(".zongjia").eq(k).text());
+// 								 	}
+// 									$(".dsj").text(haoduoqian)
+// 									$(".mathprice").text(danzongjia)
+// 								 }
+// 							})
+// 							
+// 							//点击删除
+// 							$(".scxz").click(function(){
+// 								if($(".dianquanxuan4").prop("checked")){
+// 									
+// 									for(let m=0;m<data.length;m++){
+// 										$.get("http://47.104.244.134:8080/cartupdate.do",{"id":data[m].id,"gid":data[m].gid,"num":"0","token":token},
+// 										function(data){
+// 										  window.location.reload()
+// 										}) 
+// 									}
+// 								}
+// 								for(let h=0;h<$(".dianquanxuan3").length;h++){
+// 									if($(".dianquanxuan3").eq(h).prop("checked")){
+// 										$.get("http://47.104.244.134:8080/cartupdate.do",{"id":data[h].id,"gid":data[h].gid,"num":"0","token":token},
+// 										function(data){
+// 										  window.location.reload()
+// 										}) 
+// 									}
+// 								}
+// 							})
+// 							
+// 							
+// 
+// 				})
+// 			})
+		</script>
+	</body>
+</html>

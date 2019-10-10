@@ -1,0 +1,329 @@
+@import "reset";
+.header{
+	width:100%;
+	height:100px;
+	.head{
+		width:970px;
+		height:100%;
+		position: relative;
+		margin:0 auto;
+		.logo, .falv, .yijian{
+			display:block;
+			float:left;
+		}
+		.logo{
+			margin-top:20px;
+		}
+		.falv{
+			color: #333;
+            background: #fefff1;
+            border: 1px solid #fecd66;
+            line-height: 16px;
+            padding: 4px 6px;
+			font-size:12px;
+			margin:37px 0 0 5px;
+			a{
+				color:red;
+			}
+		}
+		.yijian{
+			position: absolute;
+			right:5px;
+			bottom:4px;
+			font-size:12px;
+			color:#333;
+			i{
+				font-size:18px;
+				color:#333;
+				//text-indent: -4px;
+			}
+		}
+	}
+}
+
+//中间部分
+.middler{
+	width:100%;
+	height:570px;
+	background: url("https://image.suning.cn/uimg/cms/img/156984531239323564.jpg") center no-repeat;
+	.middle{
+		height:100%;
+		width:970px;
+		margin:0 auto;
+		.loginform{
+			height:410px;
+			float:right;
+			position: relative;
+            width: 360px;
+            margin-top: 50px;
+            background: #fff;
+            box-shadow: 0 0 2px #ececec;
+            font-family: "Microsoft Yahei";
+			.logintab{
+				height: 50px;
+                line-height: 20px;
+                font-size: 16px;
+                overflow: hidden;
+                border-bottom: 1px solid #eee;
+				.yanse{
+					color:red;
+				}
+				a{
+					position: relative;
+                    float: left;
+                    height: 100%;
+                    width: 50%;
+                    text-decoration: none;
+                    text-align: center;
+					color:#333;
+					span{
+						display: block;
+                        border-right: 1px solid #eee;
+                        margin-top: 15px;
+					}
+					.ii{
+						position: absolute;
+                        width: 70px;
+                        height: 4px;
+                        background: #f60;
+                        bottom: -1px;
+                        left: 50%;
+                        margin-left: -35px;
+						display: block;
+					}
+				}
+			}
+			.pclogin{
+				height:241px;
+				.userlogin, .phonelogin{
+					height:100%;
+					padding: 0 24px;
+					.zh{
+						position: relative;
+                        border: 1px solid #ddd;
+                        color: #999;
+                        padding: 0 32px 0 36px;
+                        height: 36px;
+                        overflow: hidden;
+						top:40px;
+						i{
+							display:block;
+							float:left;
+							position: absolute;
+							left:10px;
+							top:8px;
+						}
+						input{
+							display: block;
+                            width: 100%;
+                            height: 100%;
+                            line-height: 36px;
+                            padding: 0 32px 0 36px;
+                            border: 0;
+                            font-size: 14px;
+                            margin-left: -36px;
+							outline: 0;
+							float:left;
+						}
+					}
+					.password{
+						position: relative;
+					    border: 1px solid #ddd;
+					    color: #999;
+					    padding: 0 32px 0 36px;
+					    height: 36px;
+					    overflow: hidden;
+						top:60px;
+						i{
+							display:block;
+							float:left;
+							position: absolute;
+							left:10px;
+							top:8px;
+						}
+						input{
+							display: block;
+					        width: 100%;
+					        height: 100%;
+					        line-height: 36px;
+					        padding: 0 32px 0 36px;
+					        border: 0;
+					        font-size: 14px;
+					        margin-left: -36px;
+							outline: 0;
+							float:left;
+						}
+					}
+					.duanxin{
+						position: relative;
+						color: #999;
+						height: 36px;
+						overflow: hidden;
+						top:90px;
+						a{
+							display: inline-block;
+							height:100%;
+							line-height: 36px;
+							color:#333;
+							font-size:12px;
+						}
+						a:nth-child(1){
+							float:left;
+						}
+						a:nth-child(2){
+							float:right;
+						}
+					}
+					.denglu{
+						display: block;
+						position: relative;
+						height: 36px;
+						top:90px;
+						background: #f60;
+						color:#fff;
+						text-align: center;
+						line-height: 36px;
+						font-size: 20px;
+                        font-weight: 700;
+					}
+				}
+				.phonelogin{
+					.password{
+						position: relative;
+						.yzm{
+							position:absolute;
+                            width: 101px;
+                            height: 100%;
+                            line-height: 36px;
+                            text-align: center;
+                            background: #eee;
+                            border: 1px solid #ddd;
+                            border-left: 0 none;
+                            font-size: 14px;
+                            text-decoration: none;
+							right:0px;
+						}
+					}
+				}
+			}
+			.scanlogin{
+				padding:0 34px;
+				.scanbox{
+					width: 141px;
+                    height: 141px;
+                    margin: 0 auto;
+                    position: relative;
+					padding-top:50px;
+					position: relative;
+					.phone{
+						display: none;
+						position: absolute;
+                        top: 13px;
+                        right: -77px;
+                        width: 133px;
+                        height: 200px;
+					}
+				}
+				p{
+					display: block;
+					margin-top:37px;
+					text-align: center;
+					font-size:12px;
+					a{
+						color:red;
+					}
+				}
+			}
+			.freereg{
+				text-align: center;
+				font-size:12px;
+				margin-top:12px;
+				a{
+					color:#333;
+				}
+			}
+			.bindlogin{
+				position: relative;
+                width: 292px;
+                margin: 23px auto;
+                border-top: 1px solid #ddd;
+				font-size:12px;
+				span{
+					position: absolute;
+                    top: -9px;
+                    left: 50%;
+                    margin-left: -64px;
+                    color: #999;
+                    width: 128px;
+                    background: #fff;
+                    text-align: center;
+				}
+			}
+		}
+	}
+}
+
+
+//底部
+.footer{
+	width:100%;
+	position: relative;
+	height:479px;
+	padding-top:10px;
+	background:#f8f8f8; 
+	.ngsfooter{
+		margin-top:20px;
+		background: #f8f8f8;
+		width:100%;
+		height:278px;
+		position: relative;
+		.ngsfoot{
+			text-align: center;
+			width:1190px;
+			height:100%;
+			margin:0 auto;
+			.yihang, .erhang{
+				line-height: 25px;
+	            height: 25px;
+				font-size:12px;
+				a{
+					color:#666;
+					line-height: 25px;
+				}
+				span{
+					color: #888;
+	                padding: 0 8px;
+				}
+			}
+		    .sanhang, .sihang, .wuhang, .liuhang{
+				font-size:12px;
+				color: #999;
+				line-height: 25px;
+	            height: 25px;
+				span{
+					color: #888;
+	                padding: 0 8px;
+				}
+				a{
+					color:#999;
+				}
+				.gwab{
+					 position: relative;
+	                 padding-left: 25px;
+					 i{
+						width: 20px;
+	                    height: 20px;
+	                    background: url("https://res.suning.cn/public/v3/css/images/gwab-icon.png") no-repeat;
+					 }
+				}
+			}
+			.qihang{
+				margin-top: 5px;
+				a{
+					display: inline-block;
+	                margin-right: 8px;
+				}
+			}
+		}
+	}
+}
